@@ -1,0 +1,49 @@
+clear all;
+clc;
+
+filenames = importdata('filenames.txt');
+save filenames.mat
+clear all;
+clc;
+targets = importdata('targets.txt');
+save targets.mat
+clear all;
+clc;
+
+% M=csvread('../../../Y.csv');
+% save('targets.mat','M');
+
+
+
+hashCodes_8 = importdata('dmlvh2_BLSTM_8.txt');
+save hashCodes_8.mat;
+clear all;
+clc;
+hashCodes_16 = importdata('dmlvh2_BLSTM_16.txt');
+save hashCodes_16.mat;
+clear all;
+clc;
+hashCodes_32 = importdata('dmlvh2_BLSTM_32.txt');
+save hashCodes_32.mat;
+clear all;
+clc;
+hashCodes_64 = importdata('dmlvh2_BLSTM_64.txt');
+save hashCodes_64.mat;
+clear all;
+clc;
+hashCodes_128 = importdata('dmlvh2_BLSTM_128.txt');
+save hashCodes_128.mat;
+clear all;
+clc;
+hashCodes_256 = importdata('dmlvh2_BLSTM_256.txt');
+save hashCodes_256.mat;
+clear all;
+clc;
+hashCodes_512 = importdata('dmlvh2_BLSTM_512.txt');
+save hashCodes_512.mat;
+clear all;
+clc;
+hashCodes_1024 = importdata('dmlvh2_BLSTM_1024.txt');
+save hashCodes_1024.mat;
+clear all;
+clc;
